@@ -181,13 +181,6 @@ margin-left: 0;
     }
 }
 
-.jumbotron .lead {
-  margin: 25px 0;
-  color: #000000;
-  font-family: 'montserrat', sans-serif;
-  font-weight: bold;
-}
-
 .jumbotron .lead1 {
   margin: 25px 0;
   color: #008500;
@@ -196,6 +189,14 @@ margin-left: 0;
   font-size: 180%;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.jumbotron .lead2 {
+  margin: 25px 0;
+  color: #000000;
+  font-family: 'montserrat', sans-serif;
+  font-weight: bold;
+}
+
 
 @media (max-width: 767px) {
     .jumbotron .lead1 {
@@ -214,7 +215,7 @@ margin-left: 0;
 }
 
 
-.quotes .page-header {
+.services .page-header {
     margin-bottom: 25px;
 }
 
@@ -342,7 +343,7 @@ margin-left: 0;
     color: #FFAA00;
 }
 
-.website {
+.website-address {
     letter-spacing: 2px;
     font-size: 20px;
 }
