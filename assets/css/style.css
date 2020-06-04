@@ -1,73 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100,200,300,400,500,600,700&family=Montserrat:wght@100,200,300,400,500,600,700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100,200,300,400,500,600,700&family=Montserrat:wght@100,200,300,400,500,600,700&display=swap");
 
 /* --------------------------------------------------------------------------------LANDING PAGE------------------------------------------------------------------------------------------ */
-
 
 /* ---------------------------------------------Hero Image--------------------------------------------------- */
 
 .hero-container {
   height: 100vh;
-  background: url("../images/heroleaf.jpg") no-repeat bottom right
-  fixed;
+  background: url("../images/heroleaf.jpg") no-repeat bottom right fixed;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   position: relative;
   padding-top: 15%;
   padding-bottom: 5%;
 }
 
 @media (max-width: 767px) {
-    .hero-container {
-        height: 100vh;
-        background: url("../images/heroleaf.jpg") no-repeat bottom right
-        scroll;
-        background-size: cover;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        position: relative;
-        padding-top: 15%;
-        padding-bottom: 5%;
-    }
+  .hero-container {
+    height: 100vh;
+    background: url("../images/heroleaf.jpg") no-repeat bottom right scroll;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 15%;
+    padding-bottom: 5%;
+  }
 }
-
 
 
 /* ---------------------------------------------Navbar Styling--------------------------------------------------- */
 
 .company-name1 {
-border-bottom: 2px solid #FFAA00;
-font-family: 'josefin sans', sans-serif;
-font-weight: 700;
-font-size: 40px;
-font-style: normal;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-margin-left: 0;
+  border-bottom: 2px solid #ffaa00;
+  font-family: "josefin sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  font-style: normal;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 0;
 }
 
 .company-name2 {
-    color: #000000;
-    font-family: 'montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    line-height: 0;
-    margin-left: 0;
+  color: #000000;
+  font-family: "montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  line-height: 0;
+  margin-left: 0;
 }
 
 .navalert-container {
@@ -82,48 +77,46 @@ margin-left: 0;
 }
 
 .navbar {
-    margin-bottom: 0;
-    border: 0;
-    width: 100%;
+  margin-bottom: 0;
+  border: 0;
+  width: 100%;
 }
 
 .nav-link {
-    font-family: 'josefin sans', sans-serif;
-    font-weight: 500;
-    font-size: 120%;
-    font-style: normal;
-    color: #000000;
+  font-family: "josefin sans", sans-serif;
+  font-weight: 500;
+  font-size: 120%;
+  font-style: normal;
+  color: #000000;
 }
 
 .nav-link:hover {
-    border-bottom: 2px solid #FFAA00;
-    font-family: 'josefin sans', sans-serif;
-    font-weight: 700;
-    font-size: 25px;
-    font-style: normal;
-    color: #000000;
+  font-family: "josefin sans", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  font-style: normal;
+  color: #000000;
 }
-
 
 .navbar .navbar-toggler {
-    border: 0;
-    font-size: 250%;
+  border: 0;
+  font-size: 250%;
 }
 
-
-
+.active {
+  border-bottom: 2px solid #ffaa00;
+}
 
 /* ---------------------------------------------Container Styling--------------------------------------------------- */
 
 .container-wrapper {
-    background-color: rgba(188, 244, 110, 0.5);
+  background-color: rgba(188, 244, 110, 0.5);
 }
 
 .content-container {
-    padding-top: 5%;
-    padding-bottom: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
-
 
 /* ---------------------------------------------Block Divider--------------------------------------------------- */
 
@@ -131,10 +124,8 @@ margin-left: 0;
   width: 200px;
   height: 5px;
   border: 0;
-  background-color: #FFAA00;
+  background-color: #ffaa00;
 }
-
-
 
 /* ---------------------------------------------Jumbotron Styling--------------------------------------------------- */
 
@@ -162,29 +153,29 @@ margin-left: 0;
 .jumbotron-header {
   color: #000000;
   font-weight: bold;
-  font-family: 'josefin sans', sans-serif;
+  font-family: "josefin sans", sans-serif;
   margin-bottom: 2%;
 }
 
 @media (max-width: 767px) {
-    .jumbotron-header {
-        font-size: 180%;
-    }
-    .block-divider {
-        width: 100px;
-    }
-    .lead {
-        font-size: 90%;
-    }
-    .service-text {
-        font-size: 50%;
-    }
+  .jumbotron-header {
+    font-size: 180%;
+  }
+  .block-divider {
+    width: 100px;
+  }
+  .lead {
+    font-size: 90%;
+  }
+  .service-text {
+    font-size: 50%;
+  }
 }
 
 .jumbotron .lead1 {
   margin: 25px 0;
   color: #008500;
-  font-family: 'josefin sans', sans-serif;
+  font-family: "josefin sans", sans-serif;
   font-weight: bold;
   font-size: 180%;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -193,32 +184,28 @@ margin-left: 0;
 .jumbotron .lead2 {
   margin: 25px 0;
   color: #000000;
-  font-family: 'montserrat', sans-serif;
+  font-family: "montserrat", sans-serif;
   font-weight: bold;
 }
 
-
 @media (max-width: 767px) {
-    .jumbotron .lead1 {
-        font-size: 100%;
-    }
-    .jumbotron .lead {
-        font-size: 80%;
-    }
-    
+  .jumbotron .lead1 {
+    font-size: 100%;
+  }
+  .jumbotron .lead {
+    font-size: 80%;
+  }
 }
 
 .page-header {
-    margin-bottom: 0;
-    border-bottom: 0;
-    text-align: center;
+  margin-bottom: 0;
+  border-bottom: 0;
+  text-align: center;
 }
-
 
 .services .page-header {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
-
 
 /* ---------------------------------------------Button Styling--------------------------------------------------- */
 
@@ -227,75 +214,73 @@ margin-left: 0;
   border-radius: 23px;
   width: 160px;
   color: #000000;
-  font-family: 'montserrat', sans-serif;
-  background-color: #FFAA00;
-  border-color: #FFAA00;
+  font-family: "montserrat", sans-serif;
+  background-color: #ffaa00;
+  border-color: #ffaa00;
 }
 
 .btn--cta:hover,
 .btn--cta:active,
 .btn--cta:focus,
-.btn--cta:active:focus {
+.btn--cta:active:focus,
+.quote-button:hover,
+.quote-button:active,
+.quote-button:focus,
+.quote-button:active:focus {
   background-color: #d836c4;
   border-color: #d836c4;
 }
 
-
 /* ---------------------------------------------Services Section Icon Links and Text--------------------------------------------------- */
 
-
 .service-link {
-    color: #589500;
-    text-decoration: none;
+  color: #589500;
+  text-decoration: none;
 }
 
 .service-link:hover {
-    text-decoration: none;
-    color: #FFAA00;
+  text-decoration: none;
+  color: #ffaa00;
 }
 
 .service-text {
-    color: #000000;
-    font-family: 'montserrat', sans-serif;
-    font-size: 150%;
-    font-weight: 700;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #000000;
+  font-family: "montserrat", sans-serif;
+  font-size: 150%;
+  font-weight: 700;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
 
 /* ---------------------------------------------Reviews Section and Bootstrap Carousel--------------------------------------------------- */
 
-
 .review-pic {
-    width: 20%;
-    height: 20%;
-    margin: auto;
+  width: 20%;
+  height: 20%;
+  margin: auto;
 }
 
 .carousel-caption {
-    position: relative;
-    left: auto;
-    right: auto;
+  position: relative;
+  left: auto;
+  right: auto;
 }
 
 .review-heading {
-    color: #000000;
-    font-family: 'josefin sans', sans-serif;
-    font-size: 30px;
+  color: #000000;
+  font-family: "josefin sans", sans-serif;
+  font-size: 30px;
 }
 
 .review-body {
-    color: #000000;
-    font-family: 'montserrat', sans-serif;
-    font-size: 20px;
-    margin-top: 40px;
+  color: #000000;
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  margin-top: 40px;
 }
 
 .carousel-indicators li {
-    background-color: #FFAA00;
+  background-color: #ffaa00;
 }
-
-
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -304,60 +289,54 @@ margin-left: 0;
   outline: black;
   background-size: 100%, 100%;
   border-radius: 50%;
-  border: 5px solid #FFAA00;
+  border: 5px solid #ffaa00;
   background-image: none;
 }
 
-
-
-.carousel-control-next-icon:after
-{
-  content: '>';
+.carousel-control-next-icon:after {
+  content: ">";
   font-size: 55px;
-  color: #000000
+  color: #000000;
 }
 
 .carousel-control-prev-icon:after {
-  content: '<';
+  content: "<";
   font-size: 55px;
-  color: #000000
+  color: #000000;
 }
-
-
 
 /* ---------------------------------------------Footer Styling--------------------------------------------------- */
 
-
 .footer {
-    background: #589500;
-    padding: 20px 0px;
-    color: #000000;
+  background: #589500;
+  padding: 20px 0px;
+  color: #000000;
 }
 
 .footer h1 {
-    font-weight: 700;
-    font-family: 'josefin sans', sans-serif;
-    font-size: 20px;
-    margin-bottom: 10px;
-    margin-top: 15px;
-    color: #FFAA00;
+  font-weight: 700;
+  font-family: "josefin sans", sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  color: #ffaa00;
 }
 
 .website-address {
-    letter-spacing: 2px;
-    font-size: 20px;
+  letter-spacing: 2px;
+  font-size: 20px;
 }
 
 .footer ul li {
-    margin: 5px 0px;
+  margin: 5px 0px;
 }
 
 .footer-sub-text {
-    font-family: 'montserrat', sans-serif;
+  font-family: "montserrat", sans-serif;
 }
 
 .social-links a:hover {
-    color: #FFAA00;
+  color: #ffaa00;
 }
 
 .social-links li a {
@@ -365,12 +344,77 @@ margin-left: 0;
   font-size: 250%;
 }
 
-
-
 /* ---------------------------------------------Phone Number Link Decoration--------------------------------------------------- */
 
-
-a[href^=tel] {
-text-decoration:none;
-color: #000000;
+a[href^="tel"] {
+  text-decoration: none;
+  color: #000000;
 }
+
+
+
+/* -------------------------------------------------------------------------------------CONTACT US PAGE------------------------------------------------------------------------------------ */
+
+
+.form-section {
+    padding: 50px 100px;
+}
+
+.signup {
+    color: #000000;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: "montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.quote-button {
+    font-weight: bold;
+    font-size: 100%;
+    border-radius: 23px;
+    width: 250px;
+    height: 50px;
+    color: #000000;
+    font-family: "montserrat", sans-serif;
+    background-color: #ffaa00;
+    border-color: #ffaa00;
+    border: none;
+}
+
+
+.text-input {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FAEBD7;
+    color: #fafafa;
+    width: 100%;
+    height: 40px;
+    margin: 5px 0px 20px 0px;
+    border: none;
+    border-radius: 2px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.message-input {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FAEBD7;
+    color: #fafafa;
+    margin: 5px 0px 20px 0px;
+    border: none;
+    border-radius: 2px;
+    display: block;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .quote-button{
+    width: 100% !important;
+    font-size: 80% !important;
+    }
+}
+
