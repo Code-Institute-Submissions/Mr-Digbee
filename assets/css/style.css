@@ -133,6 +133,7 @@
   background-color: #ffaa00;
 }
 
+
 /* ---------------------------------------------Jumbotron Styling--------------------------------------------------- */
 
 .jumbotron {
@@ -161,6 +162,19 @@
   font-weight: bold;
   font-family: "josefin sans", sans-serif;
   margin-bottom: 2%;
+}
+
+.jumbotron-header2 {
+  color: #000000;
+  font-weight: bold;
+  font-family: "josefin sans", sans-serif;
+  margin-bottom: 2%;
+}
+
+@media (max-width: 767px) {
+    .jumbotron-header2 {
+        margin-top: 20%;
+    }
 }
 
 @media (max-width: 1199px) {
