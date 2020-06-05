@@ -137,21 +137,21 @@
 
 .jumbotron {
   background-color: rgba(188, 244, 110, 0.8);
-  border-radius: 162px;
+  border-radius: 140px;
   width: 70%;
   margin-bottom: 0;
 }
 
 .jumbotron2 {
   background-color: rgba(188, 244, 110, 0.9);
-  border-radius: 162px;
+  border-radius: 140px;
   width: 100%;
   margin-bottom: 0;
 }
 
 .jumbotron3 {
   background-color: rgba(188, 244, 110, 0.9);
-  border-radius: 162px;
+  border-radius: 140px;
   width: 100%;
   margin-bottom: 0;
 }
@@ -376,18 +376,6 @@ a[href^="tel"] {
 
 /* -------------------------------------------------------------------------------------CONTACT US PAGE------------------------------------------------------------------------------------ */
 
-.form-section {
-  padding: 50px 100px;
-}
-
-.get-quote {
-  color: #000000;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  font-family: "montserrat", sans-serif;
-  font-weight: bold;
-}
 
 .quote-button {
   font-weight: bold;
