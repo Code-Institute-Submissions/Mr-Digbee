@@ -123,6 +123,7 @@
   padding-bottom: 5%;
 }
 
+
 /* ---------------------------------------------Block Divider--------------------------------------------------- */
 
 .block-divider {
@@ -160,6 +161,23 @@
   font-weight: bold;
   font-family: "josefin sans", sans-serif;
   margin-bottom: 2%;
+}
+
+@media (max-width: 1199px) {
+    .jumbotron {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .jumbotron2 {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .jumbotron3 {
+        width: 100%;
+        border-radius: 0;
+    }
 }
 
 @media (max-width: 767px) {
@@ -429,7 +447,7 @@ label {
 
 @media (max-width: 773px) {
   .about-text {
-    font-size: 70%
+    font-size: 100%
   }
 }
 
@@ -438,6 +456,40 @@ label {
 }
 
 .about-image {
-    height: 80%;
     width: 100%;
+    height: auto;
+    margin: auto;
+    border: 5px solid #ffaa00;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.about-image:hover {
+    border: 5px solid #d836c4;
+}
+
+
+/* -------------------------------------------------------------------------------------COMPLETED PROJECTS PAGE------------------------------------------------------------------------------------ */
+
+.project-pic {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border: 5px solid #ffaa00;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.project-pic:hover {
+    border: 5px solid #d836c4;
+}
+
+.project-gallery {
+    column-count: 3
+}
+
+@media screen and (max-width: 800px) {
+  .project-gallery {
+    column-count: 2;
+  }
 }
