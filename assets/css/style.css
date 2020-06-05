@@ -493,3 +493,19 @@ label {
     column-count: 2;
   }
 }
+
+
+/* -------------------------------------------------------------------------------------LOCATION PAGE------------------------------------------------------------------------------------ */
+
+.location-header {
+    color: #ffaa00;
+    font-family: "josefin sans", sans-serif;
+    font-size: 300%;
+}
+
+.location-text {
+    color: #000000;
+    font-family: "montserrat", sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+}
