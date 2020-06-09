@@ -532,6 +532,10 @@ label {
 
 .property-text {
     column-count: 2;
+    font-family: "josefin sans", sans-serif;
+    font-size: 150%;
+    color: #000000;
+    text-align: center;
 }
 
 @media screen and (max-width: 800px) {
