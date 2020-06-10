@@ -281,24 +281,8 @@
 }
 
 @media (max-height: 550px) {
-    .jumbotron-header {
-        display: none;
-    }
-    .lead1 {
-        margin: 0;
-    }
-    .lead2 {
-        display: none;
-    }
-    .block-divider {
-        display: none;
-    }
     .jumbotron {
-        width: 30%; 
-        border-radius: 0;
-    }
-    .jumbotron2 {
-        border-radius: 0;
+        display: none;
     }
 }
 
