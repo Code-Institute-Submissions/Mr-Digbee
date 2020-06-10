@@ -280,7 +280,7 @@
   margin-bottom: 25px;
 }
 
-@media (max-height: 600px) {
+@media (max-height: 550px) {
     .jumbotron-header {
         display: none;
     }
@@ -298,8 +298,6 @@
         border-radius: 0;
     }
 }
-
-
 
 
 
