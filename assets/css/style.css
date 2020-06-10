@@ -285,7 +285,7 @@
         display: none;
     }
     .lead1 {
-        display: none;
+        margin: 0;
     }
     .lead2 {
         display: none;
