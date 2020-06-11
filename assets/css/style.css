@@ -5,7 +5,7 @@
 /* ---------------------------------------------Hero Image--------------------------------------------------- */
 
 .hero-container {
-  height: 100vh;
+  height: 150vh;
   background: url("../images/heroleaf.jpg") no-repeat bottom right fixed;
   background-size: cover;
   display: -webkit-box;
@@ -24,7 +24,7 @@
 
 @media (max-width: 767px) {
   .hero-container {
-    height: 100vh;
+    height: 150vh;
     background: url("../images/heroleaf.jpg") no-repeat bottom right scroll;
     background-size: cover;
     display: -webkit-box;
@@ -121,14 +121,12 @@
 }
 
 .active-nav {
-  border-bottom: 2px solid #ffaa00;
+  background-color: #ffaa00;
 }
 
-@media (max-width: 1199px) {
-  .active-nav {
-    width: 60%;
-  }
-}
+
+
+
 
 
 
@@ -173,8 +171,7 @@
   background-color: rgba(188, 244, 110, 0.8);
   border-radius: 140px;
   width: 70%;
-  margin-bottom: 5%;
-  margin-top: 15%;
+  margin-bottom: 50%;
 }
 
 .jumbotron2 {
@@ -188,7 +185,6 @@
   background-color: rgba(188, 244, 110, 0.9);
   border-radius: 140px;
   width: 100%;
-  margin-bottom: 0;
 }
 
 .jumbotron-header {
@@ -213,11 +209,22 @@
     }
 }
 
+@media (min-width: 500px) {
+    .jumbotron {
+        margin-bottom: 20%;
+    }
+}
+
+@media (max-width: 500px) {
+    .jumbotron {
+        margin-bottom: 50%;
+    }
+}
+
 @media (max-width: 767px) {
     .jumbotron {
         width: 100%;
         border-radius: 0;
-        margin-top: 20%
     }
 
     .jumbotron2 {
@@ -262,15 +269,6 @@
   font-weight: bold;
 }
 
-@media (max-width: 767px) {
-  .jumbotron .lead1 {
-    font-size: 100%;
-  }
-  .jumbotron .lead {
-    font-size: 80%;
-  }
-}
-
 .page-header {
   margin-bottom: 0;
   border-bottom: 0;
@@ -281,14 +279,6 @@
   margin-bottom: 25px;
 }
 
-@media (max-height: 550px) {
-    .jumbotron {
-        display: none;
-    }
-    .jumbotron2 {
-        border-radius: 0;
-    }
-}
 
 
 /* ---------------------------------------------Button Styling--------------------------------------------------- */
