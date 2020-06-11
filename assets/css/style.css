@@ -3,7 +3,6 @@
 /* --------------------------------------------------------------------------------LANDING PAGE------------------------------------------------------------------------------------------ */
 
 /* ---------------------------------------------Hero Image--------------------------------------------------- */
-
 .hero-container {
   height: 150vh;
   background: url("../images/heroleaf.jpg") no-repeat bottom right fixed;
@@ -43,8 +42,7 @@
 }
 
 /* ---------------------------------------------Navbar Styling--------------------------------------------------- */
-
-.company-name1 {
+.mrdigbee-name {
   border-bottom: 2px solid #ffaa00;
   font-family: "josefin sans", sans-serif;
   font-weight: 700;
@@ -54,7 +52,7 @@
   margin-left: 3%;
 }
 
-.company-name2 {
+.company-service {
   color: #000000;
   font-family: "montserrat", sans-serif;
   font-size: 16px;
@@ -74,12 +72,12 @@
 }
 
 .logo-home:hover {
-    text-decoration: none;
-    color: #000000;
+  text-decoration: none;
+  color: #000000;
 }
 
 .brand-padding {
-    padding-left: 10%;
+  padding-left: 10%;
 }
 
 .navalert-container {
@@ -124,14 +122,7 @@
   background-color: #ffaa00;
 }
 
-
-
-
-
-
-
 /* ---------------------------------------------Container Styling--------------------------------------------------- */
-
 .container-wrapper {
   background-color: rgba(188, 244, 110, 0.5);
 }
@@ -142,21 +133,19 @@
 }
 
 @media (max-width: 767px) {
-    .content-container {
-        padding-top: 10%;
-    }
+  .content-container {
+    padding-top: 10%;
+  }
 }
 
 @media (max-width: 767px) {
-    .container-padding {
-        padding-left: 0;
-        padding-right: 0;
-    }
+  .container-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
-
 /* ---------------------------------------------Block Divider--------------------------------------------------- */
-
 .block-divider {
   width: 200px;
   height: 5px;
@@ -164,24 +153,22 @@
   background-color: #ffaa00;
 }
 
-
 /* ---------------------------------------------Jumbotron Styling--------------------------------------------------- */
-
-.jumbotron {
+.action-quote {
   background-color: rgba(188, 244, 110, 0.8);
   border-radius: 140px;
   width: 70%;
   margin-bottom: 50%;
 }
 
-.jumbotron2 {
+.middle-info {
   background-color: rgba(188, 244, 110, 0.9);
   border-radius: 140px;
   width: 100%;
   margin-bottom: 0;
 }
 
-.jumbotron3 {
+.bottom-info {
   background-color: rgba(188, 244, 110, 0.9);
   border-radius: 140px;
   width: 100%;
@@ -201,41 +188,40 @@
   margin-bottom: 2%;
 }
 
-
 @media (max-width: 767px) {
-    .jumbotron-header2 {
-        margin-top: 20%;
-        font-size: 180%;
-    }
+  .jumbotron-header2 {
+    margin-top: 20%;
+    font-size: 180%;
+  }
 }
 
 @media (min-width: 500px) {
-    .jumbotron {
-        margin-bottom: 20%;
-    }
+  .action-quote {
+    margin-bottom: 20%;
+  }
 }
 
 @media (max-width: 500px) {
-    .jumbotron {
-        margin-bottom: 50%;
-    }
+  .action-quote {
+    margin-bottom: 50%;
+  }
 }
 
 @media (max-width: 767px) {
-    .jumbotron {
-        width: 100%;
-        border-radius: 0;
-    }
+  .action-quote {
+    width: 100%;
+    border-radius: 0;
+  }
 
-    .jumbotron2 {
-        width: 100%;
-        border-radius: 0;
-    }
+  .middle-info {
+    width: 100%;
+    border-radius: 0;
+  }
 
-    .jumbotron3 {
-        width: 100%;
-        border-radius: 0;
-    }
+  .bottom-info {
+    width: 100%;
+    border-radius: 0;
+  }
 }
 
 @media (max-width: 767px) {
@@ -253,7 +239,7 @@
   }
 }
 
-.jumbotron .lead1 {
+.action-quote .fall-in-love {
   margin: 25px 0;
   color: #008500;
   font-family: "josefin sans", sans-serif;
@@ -262,7 +248,7 @@
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.jumbotron .lead2 {
+.action-quote .look-below {
   margin: 25px 0;
   color: #000000;
   font-family: "montserrat", sans-serif;
@@ -279,10 +265,7 @@
   margin-bottom: 25px;
 }
 
-
-
 /* ---------------------------------------------Button Styling--------------------------------------------------- */
-
 .btn--cta {
   font-weight: bold;
   border-radius: 23px;
@@ -306,7 +289,6 @@
 }
 
 /* ---------------------------------------------Services Section Icon Links and Text--------------------------------------------------- */
-
 .service-link {
   color: #589500;
   text-decoration: none;
@@ -326,11 +308,10 @@
 }
 
 .active-services {
-    color: #ffaa00;
+  color: #ffaa00;
 }
 
 /* ---------------------------------------------Reviews Section and Bootstrap Carousel--------------------------------------------------- */
-
 .review-pic {
   width: 20%;
   height: 20%;
@@ -384,11 +365,10 @@
 }
 
 .carousel-indicators {
-bottom: -30px;
+  bottom: -30px;
 }
 
 /* ---------------------------------------------Footer Styling--------------------------------------------------- */
-
 .footer {
   background: #589500;
   padding: 20px 0px;
@@ -427,15 +407,12 @@ bottom: -30px;
 }
 
 /* ---------------------------------------------Phone Number Link Decoration--------------------------------------------------- */
-
 a[href^="tel"] {
   text-decoration: none;
   color: #000000;
 }
 
 /* -------------------------------------------------------------------------------------CONTACT US PAGE------------------------------------------------------------------------------------ */
-
-
 .quote-button {
   font-weight: bold;
   font-size: 100%;
@@ -463,7 +440,7 @@ a[href^="tel"] {
 }
 
 .form-margin {
-    margin-top: 5%;
+  margin-top: 5%;
 }
 
 label {
@@ -489,59 +466,55 @@ label {
   }
 }
 
-
 /* -------------------------------------------------------------------------------------ABOUT US PAGE------------------------------------------------------------------------------------ */
-
 .about-text {
-    font-family: "josefin sans", sans-serif;
-    font-size: 150%;
-    color: #000000;
-    text-align: center;
-    margin-top: 3%;
+  font-family: "josefin sans", sans-serif;
+  font-size: 150%;
+  color: #000000;
+  text-align: center;
+  margin-top: 3%;
 }
 
 @media (max-width: 773px) {
   .about-text {
-    font-size: 100%
+    font-size: 100%;
   }
 }
 
 .free-text {
-    color: #ffaa00;
+  color: #ffaa00;
 }
 
 .about-image {
-    width: 70%;
-    height: auto;
-    margin: auto;
-    border: 5px solid #ffaa00;
-    border-radius: 4px;
-    padding: 5px;
-    margin-left: 15.5%;
+  width: 70%;
+  height: auto;
+  margin: auto;
+  border: 5px solid #ffaa00;
+  border-radius: 4px;
+  padding: 5px;
+  margin-left: 15.5%;
 }
 
 .about-image:hover {
-    border: 5px solid #decb1f;
+  border: 5px solid #decb1f;
 }
 
-
 /* -------------------------------------------------------------------------------------COMPLETED PROJECTS PAGE------------------------------------------------------------------------------------ */
-
 .project-pic {
-    width: 80%;
-    height: auto;
-    margin: auto;
-    border: 5px solid #ffaa00;
-    border-radius: 4px;
-    padding: 5px;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  border: 5px solid #ffaa00;
+  border-radius: 4px;
+  padding: 5px;
 }
 
 .project-pic:hover {
-    border: 5px solid #decb1f;
+  border: 5px solid #decb1f;
 }
 
 .project-gallery {
-    column-count: 3
+  column-count: 3;
 }
 
 @media screen and (max-width: 800px) {
@@ -550,56 +523,56 @@ label {
   }
 }
 
-
 /* -------------------------------------------------------------------------------------LOCATION PAGE------------------------------------------------------------------------------------ */
-
 .location-header {
-    color: #ffaa00;
-    font-family: "josefin sans", sans-serif;
-    font-size: 300%;
+  color: #ffaa00;
+  font-family: "josefin sans", sans-serif;
+  font-size: 300%;
 }
 
 .location-text {
-    color: #000000;
-    font-family: "montserrat", sans-serif;
-    font-size: 150%;
-    font-weight: bold;
+  color: #000000;
+  font-family: "montserrat", sans-serif;
+  font-size: 150%;
+  font-weight: bold;
 }
 
 .location-map {
-    height: 500px;
+  height: 500px;
+}
+
+@media screen and (max-width: 1100px) {
+  .location-map {
+    height: 300px;
+  }
+}
+
+.map-padding {
+  padding-bottom: 15%;
+}
+
+/* -------------------------------------------------------------------------------------SERVICE PAGES------------------------------------------------------------------------------------ */
+.info-text {
+  column-count: 2;
+  font-family: "josefin sans", sans-serif;
+  font-size: 150%;
+  color: #000000;
+  text-align: center;
 }
 
 @media screen and (max-width: 800px) {
-    .location-map {
-        height: 300px;
-    }
-}
-
-
-/* -------------------------------------------------------------------------------------PROPERTY MAINTENANCE PAGE------------------------------------------------------------------------------------ */
-
-.property-text {
-    column-count: 2;
-    font-family: "josefin sans", sans-serif;
-    font-size: 150%;
-    color: #000000;
-    text-align: center;
-}
-
-@media screen and (max-width: 800px) {
-  .property-text {
+  .info-text {
     column-count: 1;
   }
 }
 
-.property-pic {
+.info-pic {
   width: 60%;
   height: auto;
   margin: auto;
   border: 5px solid #ffaa00;
 }
 
-.property-pic:hover {
-    border: 5px solid #decb1f;
+.info-pic:hover {
+  border: 5px solid #decb1f;
 }
