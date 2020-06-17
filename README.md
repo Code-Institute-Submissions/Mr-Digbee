@@ -267,11 +267,13 @@ If you are unable to access the mockup links above please see the mockup images 
 * [JQuery](https://jquery.com/) & [Popper](https://popper.js.org/) - were used in conjunction with the Bootstrap library.
 * [FontAwseome](https://fontawesome.com/) - used for all icons on the site.
 * [Google Fonts](https://fonts.google.com/) - used for the Josefin Sans and Montserrat fonts.
+* [Hover.css](https://ianlunn.github.io/Hover/) - used to animate the naviagtion links, services icons and social media icons.
 
 ### Tools
 
 * [Gitpod](https://www.gitpod.io) - used as IDE for this project.
 * [Git](https://git-scm.com/) - used for version control.
+* [Github](https://github.com/) - used to host repository and live website.
 * [Figma](https://www.figma.com/) - used for creation of mockups.
 * [Am I Responsive](http://ami.responsivedesign.is/) - used for testing purposes as well as creating the image to display the web pages on different devices.
 * [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used for testing and debugging.
@@ -280,6 +282,7 @@ If you are unable to access the mockup links above please see the mockup images 
 * [w3 html validator](https://validator.w3.org/) - used to test and validate my html code.
 * [w3 css validator](https://jigsaw.w3.org/) - used to test and validate my css code.
 * [Browserling](https://www.browserling.com/) - used to test my site on different browsers.
+* [Color Scheme Designer](http://colorschemedesigner.com/) - used to test colour combinations.
 
 
 ## Testing
@@ -344,6 +347,7 @@ All content on the web page was written by me with the exception of the text on 
 * [Code Institute](https://github.com/Gmanprodev/Bootstrap) - used the 'Whiskey Drop' page as the initial code structure for my project. The only element of this code that still remains in it's original state is the hero image section.
 * [alexnexton](https://alexnexton.github.io/MS1-OneArena/) - used to view and understand the code for the location interactive map.
 * [inesnago](https://inesnago.github.io/my-cv-final/) - used to view and understand the code for a contact form.
+* [zahra Sadiq](https://zahrasadiq.github.io/Milestone1-StreetFoodiesTour/index.html) - used to compare my navigation bar and fix navigation link margins.
 * [Figma Tutorial](https://www.youtube.com/watch?v=3q3FV65ZrUs) - used this tutorial to learn how to use Figma.
 * Inspiration resources for writing this README file:
     * [Itamichan](https://github.com/Itamichan/CG_photography)
