@@ -4,7 +4,7 @@
 
 /* ------------------------Hero Image-------------------------------- */
 .hero-container {
-  height: 150vh;
+  height: 100vh;
   background: url("../images/heroleaf.jpg") no-repeat bottom right fixed;
   background-size: cover;
   display: -webkit-box;
@@ -23,7 +23,27 @@
 
 @media (max-width: 767px) {
   .hero-container {
-    height: 150vh;
+    height: 100vh;
+    background: url("../images/heroleaf.jpg") no-repeat bottom right scroll;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 15%;
+    padding-bottom: 5%;
+  }
+}
+
+@media (max-width: 330px) {
+  .hero-container {
+    height: 120vh;
     background: url("../images/heroleaf.jpg") no-repeat bottom right scroll;
     background-size: cover;
     display: -webkit-box;
@@ -116,6 +136,7 @@
 .navbar .navbar-toggler {
   border: 0;
   font-size: 250%;
+  color: #ffaa00;
 }
 
 .active-nav {
@@ -125,8 +146,8 @@
 /* ---------------------------------Container Styling--------------------------------------- */
 .container-wrapper {
   background-color: rgba(188, 244, 110, 0.5);
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .content-container {
@@ -160,7 +181,6 @@
   background-color: rgba(188, 244, 110, 0.8);
   border-radius: 140px;
   width: 70%;
-  margin-bottom: 50%;
 }
 
 .middle-info {
@@ -197,15 +217,27 @@
   }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 900px) {
+    .action-quote {
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 380px) {
   .action-quote {
-    margin-bottom: 20%;
+    margin-top: 30%;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 330px) {
   .action-quote {
-    margin-bottom: 50%;
+    margin-top: 25%;
+  }
+}
+
+@media (max-height: 570px) {
+  .action-quote {
+    margin-top: 25%;
   }
 }
 
@@ -397,6 +429,16 @@
 
 .footer-sub-text {
   font-family: "montserrat", sans-serif;
+}
+
+.decoration {
+    text-decoration: none;
+    color: #000000;
+}
+
+.site-decoration {
+    text-decoration: none;
+    color: #ffaa00;
 }
 
 .social-links a:hover {
