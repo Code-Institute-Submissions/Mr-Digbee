@@ -203,10 +203,11 @@ If you are unable to access the mockup links above please see the mockup images 
 
 * **Footer**
     * Copyright information.
-    * Website built by information.
-    * Website address.
-    * Social media links - facebook, Twitter, Instagram and Youtube.
-    * Contact Information - email address and phone number.
+    * Website built by information (linked to Marc Gulliver Linkedin profile).
+    * Website address (linked to website landing page).
+    * Social media links - facebook, Twitter, Instagram and Youtube (linked to relevant login page).
+    * Phone Number (linked to click-to-call function).
+    * Email Address (linked to mailto function).
 
 * **Hero Image**
     * Each page has the same hero image, which on screen widths greater than 767px the image stays `fixed` and on screen widths below 767px the image scrolls with the rest of the content. Most pages have a text over the hero image which identifies which page the user is currently on.
@@ -234,7 +235,7 @@ If you are unable to access the mockup links above please see the mockup images 
 * **Contact Us page**
     * Has a form which asks for contact information and a message. The form boxes have Orange borders rather than a background colour to identify the text areas.
 
-* **Services pages**
+* **Service pages**
     * Has two columns of text, listing the services avaialble and a Bootstrap carousel with images of completed work relevant to that service page. At the bottom of the page is the Services menu where you can navigate to another service page.
 
 ### Features left to implement
@@ -252,7 +253,7 @@ If you are unable to access the mockup links above please see the mockup images 
 * **Colour Contrasts** - The Lighthouse Audit Chrome extension highlighted that the colours used on the site are too similar and could cause an issue for accessability. These issues will be addressed in the next release.
 * **Website Address in Footer** - The website address (www.mrdigbee.com) does not currently exist and does not link to another page. This will addressed in the next release.
 * **Social Media Links in Footer** - The social media icons are linked to the correct pages, however these are currently generic login pages. These will direct you to the company specific pages in future releases.
-* **Mobile Lanscape View** - On some pages, when viewing on a mobile in landscape orientation, the call to action section at the top of the page can be cut off by the Navigation bar. This will be fixed on the next release.
+* **Mobile Lanscape View** - On some pages, when viewing on a mobile in landscape orientation, the call to action section at the top of the page can be cut off by the Navigation bar and the footer content is pushed on top of each other. This will be fixed on the next release.
 
 ## Technologies Used
 
@@ -366,6 +367,7 @@ All content on the web page was written by me with the exception of the text on 
 #### I received advice and encouragement from
    * Seun Owonikoko (my mentor)
    * Eventyret_mentor (via slack channels)
+   * Tutor Support (CI online webchat)
    * Anukje-byllsa (fellow student)
    * Carlos (fellow student)
    * SuzanneNL (fellow student)
