@@ -184,7 +184,7 @@ I decided that it would be more helpful to have mockups than simple wireframes. 
 Link to the mockups can be found [here](https://www.figma.com/file/5SeQOD7OjUwOVG342bqycX/Mr-Digbee?node-id=0%3A1). The mockups were designed for the mobile first approach. The tablet and desktop versions only have minor differences in comparison with the mobile version.
 I also created a prototype of how the mockup pages would interact with each other, you can access the prototype [here](https://www.figma.com/proto/5SeQOD7OjUwOVG342bqycX/Mr-Digbee?node-id=18%3A45&scaling=min-zoom). 
 
-If you are unable to access the mockup links above please see the mockup images [here](wireframes).
+If you are unable to access the mockup links above please see the mockup images [here](documentation/wireframes).
 
 ## Features
 
@@ -261,6 +261,7 @@ If you are unable to access the mockup links above please see the mockup images 
 
 * HTML - Base language for this project.
 * CSS - used for styling the HTML code.
+* JavaScript - used in conjunction with Bootstrap.
 
 ### Libraries
 
@@ -282,7 +283,7 @@ If you are unable to access the mockup links above please see the mockup images 
 * [Lighthouse Audit](https://developers.google.com/web/tools/lighthouse) - used to test whether the site meets the standards expected.
 * [w3 html validator](https://validator.w3.org/) - used to test and validate my html code.
 * [w3 css validator](https://jigsaw.w3.org/) - used to test and validate my css code.
-* [Browserling](https://www.browserling.com/) - used to test my site on different browsers.
+* [Browserstack](https://www.browserstack.com/) - used to test my site on different browsers.
 * [Color Scheme Designer](http://colorschemedesigner.com/) - used to test colour combinations.
 
 

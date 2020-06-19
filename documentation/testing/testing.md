@@ -108,8 +108,9 @@
 ### Browser Validation
    * Chrome - works correctly. Click [here](testing/images/chrome_test.jpg) for the test image.
    * Explorer - works correctly. Click [here](testing/images/explorer_test.jpg) for the test image.
-   * Safari - works correctly. Click [here](testing/images/firefox_test.jpg) for the test image.
-   * Opera - the carousel doesn't work and the slides don't move (this has not been fixed). Click [here](testing/images/safari_test.jpg) for the test image.
+   * Safari - works correctly. Click [here](testing/images/safari_test.jpg) for the test image.
+   * Firefox - works correctly. Click [here](testing/images/firefox_test.jpg) for the test image.
+   * Opera - works correctly. Click [here](testing/images/opera_test.jpg) for the test image.
 
 ### Lighthouse Audit
    * Click [here](testing/lighthouse_report.pdf) for the full report.
@@ -154,6 +155,7 @@ The feedback was that people enjoyed using the site and it was fun and easy to n
 * The section border radius on all pages were blending into one another and needed space between them, the navigation bar and the footer - implemented.
 * On a mobile device in landscape orientation the content overlaps one another - I am aware of this and given there are very few users who will navigate this site in a mobile landscape orientation I will fix this in a future release.
 * On a Iphone the carousel slides the same content in twice - I am aware of this and through my research I have concluded that this is due to a bug in ios 13 and cannot be fixed at this stage.
+* The Orange and Green colours in the footer have very low contrast which could be an issue for accessability - Will look to make changes in the future releases.
 
 
 ### User review
