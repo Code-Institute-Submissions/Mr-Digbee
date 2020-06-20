@@ -128,7 +128,7 @@ Both business and customer goals are addressed through user stories.
 
 All the User Stories have been assessed against value and complexity on the chart below. Due to the relatively short time for the implementation of the website, only the MVPs will be implemented in the first release of the web page.
 
-[User Stories evaluation](mvp/user_stories.md)
+[User Stories evaluation](documentation/mvp/user_stories.md)
 
 
 **Explanation of the chart**
@@ -144,7 +144,7 @@ All the User Stories have been assessed against value and complexity on the char
 * The features with low complexity and low value will be addressed lastly as they didn't represent a must have feature for the first release and are very easy to implement.
 * The features with high complexity and medium value have been postponed for future updates/releases.
 
-![chart](mvp/value_chart.jpg)
+![chart](documentation/mvp/value_chart.jpg)
 
 
 ### Design
@@ -184,7 +184,7 @@ I decided that it would be more helpful to have mockups than simple wireframes. 
 Link to the mockups can be found [here](https://www.figma.com/file/5SeQOD7OjUwOVG342bqycX/Mr-Digbee?node-id=0%3A1). The mockups were designed for the mobile first approach. The tablet and desktop versions only have minor differences in comparison with the mobile version.
 I also created a prototype of how the mockup pages would interact with each other, you can access the prototype [here](https://www.figma.com/proto/5SeQOD7OjUwOVG342bqycX/Mr-Digbee?node-id=18%3A45&scaling=min-zoom). 
 
-If you are unable to access the mockup links above please see the mockup images [here](documentation/wireframes).
+If you are unable to access the mockup links above please see the mockup images [here](../wireframes).
 
 ## Features
 

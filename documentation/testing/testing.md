@@ -106,14 +106,14 @@
    * I used the [Free Formatter](https://www.freeformatter.com/) website to format my html code.
 
 ### Browser Validation
-   * Chrome - works correctly. Click [here](testing/images/chrome_test.jpg) for the test image.
-   * Explorer - works correctly. Click [here](testing/images/explorer_test.jpg) for the test image.
-   * Safari - works correctly. Click [here](testing/images/safari_test.jpg) for the test image.
-   * Firefox - works correctly. Click [here](testing/images/firefox_test.jpg) for the test image.
-   * Opera - works correctly. Click [here](testing/images/opera_test.jpg) for the test image.
+   * Chrome - works correctly. Click [here](test-images/chrome_test.jpg) for the test image.
+   * Explorer - works correctly. Click [here](test-images/explorer_test.jpg) for the test image.
+   * Safari - works correctly. Click [here](test-images/safari_test.jpg) for the test image.
+   * Firefox - works correctly. Click [here](test-images/firefox_test.jpg) for the test image.
+   * Opera - works correctly. Click [here](test-images/opera_test.jpg) for the test image.
 
 ### Lighthouse Audit
-   * Click [here](testing/lighthouse_report.pdf) for the full report.
+   * Click [here](lighthouse_report.pdf) for the full report.
    * No reccommendations in this report have been implemented in the first release but will be looked at in future releases.
 
 #### Conclusion
