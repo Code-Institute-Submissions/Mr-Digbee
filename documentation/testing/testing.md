@@ -1,6 +1,6 @@
 # Testing
 
-[back to README.md file](../README.md)
+[back to README.md file](README.md)
 
 ## Table of Content
 
@@ -44,7 +44,7 @@
    * Verify that the footer sticks to the bottom of the page.
    * Verify that the 'Website built by Marc Gulliver' link in the footer opens up LinkedIn profile in a separate window.
    * Verify that the 'mrdigbee' website address in the footer links to the landing page.
-   * Verify that the 'info@mrdigbee.com' email address in the footer opens up a mailto function.
+   * Verify that the 'mrdigbee' email address in the footer opens up a mailto function.
    * Verify that the '07720428665' contact phone number in the footer opens up a click-to-call function.
    * Verify that the social media icons change colour to Orange and `bounce` when on `hover`.
    * Verify that all pages and content are responsive on differnt devices and screen sizes.
@@ -92,6 +92,7 @@
       * Verify that all images have a border which changes to a lighter yellow gold colour on `hover` and that the images open in a separate window when clicked on.
 
 #### Conclusion
+
    * I found that there were a number of images which weren't linked correctly - this issue has been fixed for the first release.
    * I found that the contact form email address field was accepting any text and not a valid email format - this issue has been fixed for the first release.
    * I found that the contact form phone number field was accepting any text and not a valid UK phone number - this issue has been fixed for the first release.
@@ -101,11 +102,13 @@
 ## Automated Testing
 
 ### Code Validation
+
    * I used the [W3C Markup Validation Service](https://validator.w3.org/) to validate my html code.
    * I used the [W3C CSS Validation Service](https://jigsaw.w3.org/) to validate my css code.
    * I used the [Free Formatter](https://www.freeformatter.com/) website to format my html code.
 
 ### Browser Validation
+
    * Chrome - works correctly. Click [here](test-images/chrome_test.jpg) for the test image.
    * Explorer - works correctly. Click [here](test-images/explorer_test.jpg) for the test image.
    * Safari - works correctly. Click [here](test-images/safari_test.jpg) for the test image.
@@ -113,10 +116,12 @@
    * Opera - works correctly. Click [here](test-images/opera_test.jpg) for the test image.
 
 ### Lighthouse Audit
+
    * Click [here](lighthouse_report.pdf) for the full report.
    * No reccommendations in this report have been implemented in the first release but will be looked at in future releases.
 
 #### Conclusion
+
    * The code validators highlighted 2 errors:
       * Using an a tag to wrap a button - this issue has been fixed for the first release.
       * Missing a h1 tag inside a new section - this issue has been fixed for the first release. 
@@ -146,16 +151,16 @@ The feedback was that people enjoyed using the site and it was fun and easy to n
 
 #### Suggested improvements:
 
-* Add left paddign to the collapsed dropdown menu so the text isn't hugging the screen edge - implemented.
-* Footer Social Media links all go to the generic login pages and not the company pages - I've left this for a later release as at this moment in time the Mr Digbee business doesn't have any Social Media footprint.
-* The contact form should have more padding to allow more space between the content and the section border radius - implemented.
-* The contact form sends without a valid email address and phone number - implemented.
-* Remove the call to action (header) at the top of the servivce pages so you can immedialtely see the information you've clicked for rather than scrolling again - this is a single user prefrence and I will look to implement this on a later release once I have a larger quantity of user feedback.
-* One image on the Flowers & Trees page had a broken link and needed fixing - implemented.
-* The section border radius on all pages were blending into one another and needed space between them, the navigation bar and the footer - implemented.
-* On a mobile device in landscape orientation the content overlaps one another - I am aware of this and given there are very few users who will navigate this site in a mobile landscape orientation I will fix this in a future release.
-* On a Iphone the carousel slides the same content in twice - I am aware of this and through my research I have concluded that this is due to a bug in ios 13 and cannot be fixed at this stage.
-* The Orange and Green colours in the footer have very low contrast which could be an issue for accessability - Will look to make changes in the future releases.
+   * Add left paddign to the collapsed dropdown menu so the text isn't hugging the screen edge - implemented.
+   * Footer Social Media links all go to the generic login pages and not the company pages - I've left this for a later release as at this moment in time the Mr Digbee business doesn't have any Social Media footprint.
+   * The contact form should have more padding to allow more space between the content and the section border radius - implemented.
+   * The contact form sends without a valid email address and phone number - implemented.
+   * Remove the call to action (header) at the top of the servivce pages so you can immedialtely see the information you've clicked for rather than scrolling again - this is a single user prefrence and I will look to implement this on a later release once I have a larger quantity of user feedback.
+   * One image on the Flowers & Trees page had a broken link and needed fixing - implemented.
+   * The section border radius on all pages were blending into one another and needed space between them, the navigation bar and the footer - implemented.
+   * On a mobile device in landscape orientation the content overlaps one another - I am aware of this and given there are very few users who will navigate this site in a mobile landscape orientation I will fix this in a future release.
+   * On a Iphone the carousel slides the same content in twice - I am aware of this and through my research I have concluded that this is due to a bug in ios 13 and cannot be fixed at this stage.
+   * The Orange and Green colours in the footer have very low contrast which could be an issue for accessability - Will look to make changes in the future releases.
 
 
 ### User review
@@ -165,8 +170,11 @@ The general feedback was positive. Most people commenting on how much fun it was
 
 #### Suggested improvements:
 
-* Maybe better to have the Services section in the Navigation bar with the rest of the links - Will look to implement in a future release if there is enough user feedback.
-* On a mobile device in landscape orientation the content overlaps one another - I am aware of this and given there are very few users who will navigate this site in a mobile landscape orientation I will fix this in a future release.
-* On a Iphone the carousel slides the same content in twice - I am aware of this and through my research I have concluded that this is due to a bug in ios 13 and cannot be fixed at this stage.
+   * Maybe better to have the Services section in the Navigation bar with the rest of the links - Will look to implement in a future release if there is enough user feedback.
+   * On a mobile device in landscape orientation the content overlaps one another - I am aware of this and given there are very few users who will navigate this site in a mobile landscape orientation I will fix this in a future release.
+   * On an Iphone the carousel slides the same content in twice - 
 
-    
+#### Conclusion
+
+   * I am aware of the Iphone bug and through my research I have concluded that this is due to a bug in ios 13 and cannot be fixed at this stage.
+   * I will use an analytics platform on the first release, such as [Hotjar](https://www.hotjar.com/), to collect feedback form a larger range of users and use that data to implement changes related to the way users navigate the site.
