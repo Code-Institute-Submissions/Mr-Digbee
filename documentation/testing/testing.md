@@ -1,6 +1,6 @@
 # Testing
 
-[back to README.md file](README.md)
+[back to README.md file](.../README.md)
 
 ## Table of Content
 
@@ -145,11 +145,11 @@ Generally very positive feedback and was very complimentary about the colours an
 * Reduce the size of the image on the About Us page - implemented.
 * Increase the google map size on the Location page and create @media query for smaller screen sizes - implemented.
 
-### Peer-code-review
+### Peer-Code-Review
 
 The feedback was that people enjoyed using the site and it was fun and easy to navigate. Everyone loved the colours and how if made them feel.
 
-#### Suggested improvements:
+#### Suggested Improvements:
 
    * Add left paddign to the collapsed dropdown menu so the text isn't hugging the screen edge - implemented.
    * Footer Social Media links all go to the generic login pages and not the company pages - I've left this for a later release as at this moment in time the Mr Digbee business doesn't have any Social Media footprint.
@@ -163,12 +163,12 @@ The feedback was that people enjoyed using the site and it was fun and easy to n
    * The Orange and Green colours in the footer have very low contrast which could be an issue for accessability - Will look to make changes in the future releases.
 
 
-### User review
+### User Review
 
 The general feedback was positive. Most people commenting on how much fun it was visually and easy to navigate.
 
 
-#### Suggested improvements:
+#### Suggested Improvements:
 
    * Maybe better to have the Services section in the Navigation bar with the rest of the links - Will look to implement in a future release if there is enough user feedback.
    * On a mobile device in landscape orientation the content overlaps one another - I am aware of this and given there are very few users who will navigate this site in a mobile landscape orientation I will fix this in a future release.
