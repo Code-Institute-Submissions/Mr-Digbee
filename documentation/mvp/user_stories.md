@@ -1,6 +1,6 @@
 # User Stories
 
-[back to README.md file](../README.md)
+[back to README.md file](https://github.com/Gmanprodev/Mr-Digbee/blob/master/README.md)
 
 ### User Category: The Tradesman
 * A. As a Tradesman, I want to show examples of my previous completed work so that people hire me.

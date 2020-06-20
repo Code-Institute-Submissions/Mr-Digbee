@@ -184,7 +184,7 @@ I decided that it would be more helpful to have mockups than simple wireframes. 
 Link to the mockups can be found [here](https://www.figma.com/file/5SeQOD7OjUwOVG342bqycX/Mr-Digbee?node-id=0%3A1). The mockups were designed for the mobile first approach. The tablet and desktop versions only have minor differences in comparison with the mobile version.
 I also created a prototype of how the mockup pages would interact with each other, you can access the prototype [here](https://www.figma.com/proto/5SeQOD7OjUwOVG342bqycX/Mr-Digbee?node-id=18%3A45&scaling=min-zoom). 
 
-If you are unable to access the mockup links above please see the mockup images [here](../wireframes).
+If you are unable to access the mockup links above please see the mockup images [here](https://github.com/Gmanprodev/Mr-Digbee/blob/documentation/wireframes).
 
 ## Features
 
@@ -251,7 +251,7 @@ If you are unable to access the mockup links above please see the mockup images 
 * **Bootstrap Carousel** - After some research I found there to be a bug on ios13 (apple products) that makes each carousel slide move in twice. I believe this can be fixed with writing additional JavaScript for future releases.
 * **Favicon** - The DevTool Console showed an error as I didn't have time to install a Favicon for the first release. This will be part of the next release. 
 * **Colour Contrasts** - The Lighthouse Audit Chrome extension highlighted that the colours used on the site are too similar and could cause an issue for accessability. These issues will be addressed in the next release.
-* **Website Address in Footer** - The website address (www.mrdigbee.com) does not currently exist and does not link to another page. This will addressed in the next release.
+* **Website Address in Footer** - The website address (www.mrdigbee.com) does not currently exist and does not link to another page. This will be addressed in the next release.
 * **Social Media Links in Footer** - The social media icons are linked to the correct pages, however these are currently generic login pages. These will direct you to the company specific pages in future releases.
 * **Mobile Lanscape View** - On some pages, when viewing on a mobile in landscape orientation, the call to action section at the top of the page can be cut off by the Navigation bar and the footer content is pushed on top of each other. This will be fixed on the next release.
 
@@ -289,7 +289,7 @@ If you are unable to access the mockup links above please see the mockup images 
 
 ## Testing
 
-Testing information can be found [here](testing/testing.md).
+Testing information can be found [here](documentation/testing/testing.md).
 
 ## Deployment
 
