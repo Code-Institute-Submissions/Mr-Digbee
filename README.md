@@ -184,7 +184,7 @@ I decided that it would be more helpful to have mockups than simple wireframes. 
 Link to the mockups can be found [here](https://www.figma.com/file/5SeQOD7OjUwOVG342bqycX/Mr-Digbee?node-id=0%3A1). The mockups were designed for the mobile first approach. The tablet and desktop versions only have minor differences in comparison with the mobile version.
 I also created a prototype of how the mockup pages would interact with each other, you can access the prototype [here](https://www.figma.com/proto/5SeQOD7OjUwOVG342bqycX/Mr-Digbee?node-id=18%3A45&scaling=min-zoom). 
 
-If you are unable to access the mockup links above please see the mockup images [here](https://github.com/Gmanprodev/Mr-Digbee/documentation/wireframes).
+If you are unable to access the mockup links above please see the mockup images [here](https://github.com/Gmanprodev/Mr-Digbee/tree/master/documentation/wireframes).
 
 ## Features
 
