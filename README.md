@@ -42,7 +42,7 @@ The website can be viewed on Desktop, Tablet and Mobile devices.
     * [Wireframes](#wireframes)
 2. [Features](#features)
     * [Existing Features](#existing-features)
-        * [Elements present on every page](#elements-present-on-every-page)
+        * [Elements seen on every page](#elements-seen-on-every-page)
         * [Other elements](#other-elements)
     * [Features left to implement](#features-left-to-implement)
     * [Bugs and Fixes for Future Releases After Testing](#bugs-and-fixes-for-future-releases-after-testing)
